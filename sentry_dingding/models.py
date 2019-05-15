@@ -52,7 +52,7 @@ class DingDingMessage(NotifyPlugin):
                     project_name=project,
                     level=level,
                 ),
-                "text": '''## {project_name}@{server_name}:{level}
+                "text": u'''## {project_name}@{server_name}:{level}
 {msg}
 > [view]({link})
                 '''.format(
