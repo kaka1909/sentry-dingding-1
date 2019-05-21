@@ -1,15 +1,21 @@
 sentry-dingding
 ==============
 
-An extension for Sentry which integrates with DingDing.
-It will send issues notification to DingDing.
+An extension for Sentry which integrates with DingDing. It will send issues notification to DingDing.
 
-Install
+
+Why fork?
+-------
+You will face unicode issue if use https://github.com/L3T/sentry-dingding to handle messages contains special characters.
+
+
+How to configure with sentry server?
 -------
 
-Install the package via ``pip``::
+Add below dependency in requirements.txt if you are usring docker to deploy sentry components.
 
-    pip install sentry-dingding
+git+https://github.com/kaka1909/sentry-dingding-1
+
 
 Configuration
 -------------
