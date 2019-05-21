@@ -6,7 +6,7 @@ An extension for Sentry which integrates with DingDing. It will send issues noti
 
 Why fork?
 -------
-You will face unicode issue if use https://github.com/L3T/sentry-dingding to handle messages contains special characters.
+You will face unicode issue if use https://github.com/L3T/sentry-dingding to handle messages contain special characters.
 
 
 How to configure with sentry server?
